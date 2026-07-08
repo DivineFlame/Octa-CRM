@@ -132,6 +132,20 @@ Full walkthrough with screenshots:
 > (Vercel, Railway, your own VPS). Hostinger is recommended, not
 > required._
 
+## Deploy on Dokploy
+
+This repo also ships a Dokploy-ready Docker deployment:
+
+- [`Dockerfile`](./Dockerfile) builds the app as a Next.js standalone server.
+- [`docker-compose.yml`](./docker-compose.yml) runs the app on port `3002` and
+  joins Dokploy's `dokploy-network`.
+- [`docs/deployment-dokploy.md`](./docs/deployment-dokploy.md) lists the
+  Dokploy service settings and required environment variables.
+
+In Dokploy, create a **Compose** service from this GitHub repo, set the compose
+path to `./docker-compose.yml`, add the variables from `.env.local.example`, and
+configure your domain to route to container port `3002`.
+
 ## Documentation
 
 Full self-host documentation — Supabase migrations, WhatsApp Business
