@@ -22,16 +22,17 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "wacrm",
-    template: "%s — wacrm",
+    default: "OctaCRM",
+    template: "%s — OctaCRM",
   },
-  description: "Self-hostable CRM template for WhatsApp.",
+  description: "OctaCRM client messaging and relationship management.",
   robots: {
     index: false,
     follow: false,
   },
   icons: {
-    icon: [{ url: "/icon" }],
+    icon: [{ url: "/octacrm-logo.png" }],
+    apple: [{ url: "/octacrm-logo.png" }],
   },
   formatDetection: {
     email: false,

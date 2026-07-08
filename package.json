@@ -1,17 +1,17 @@
 {
-  "name": "wacrm",
+  "name": "octacrm",
   "version": "0.7.0",
   "private": true,
-  "description": "Self-hostable CRM template for WhatsApp built on Next.js and Supabase — shared inbox, contacts, sales pipelines, broadcasts, and no-code automations.",
+  "description": "OctaCRM client messaging and relationship management built on Next.js and Supabase.",
   "license": "MIT",
-  "author": "Arnas Donauskas",
-  "homepage": "https://github.com/ArnasDon/wacrm",
+  "author": "Octave Consultancy and Technology Services",
+  "homepage": "https://github.com/DivineFlame/Octa-CRM",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArnasDon/wacrm.git"
+    "url": "git+https://github.com/DivineFlame/Octa-CRM.git"
   },
   "bugs": {
-    "url": "https://github.com/ArnasDon/wacrm/issues"
+    "url": "https://github.com/DivineFlame/Octa-CRM/issues"
   },
   "keywords": [
     "crm",
